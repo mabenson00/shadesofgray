@@ -1,0 +1,1 @@
+ajax basically makes it so you can update information on a page without reloading the full page. to max an ajax call you do some sort of javascript event handler with ajax to send a request, get information back from a route, then use that response in some way on the page.

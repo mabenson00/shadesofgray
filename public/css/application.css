@@ -1,0 +1,167 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  text-align: left;
+}
+
+.title {
+  margin-top: 20px;
+  padding-top: 20px;
+  clear: both;
+}
+
+.subhead{
+  padding-top:10px;
+}
+
+.noborder{
+  border:0px
+}
+
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style :none;
+}
+
+.body-main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+article p {
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 21px;
+  line-height:1.58;
+  letter-spacing: -.003em;
+
+}
+.left {
+  float: left;
+}
+
+.right {
+  position: fixed;
+  left:75%;
+  top: 80px;
+  text-align:left;
+}
+
+.color {
+  color: black;
+  line-height: 1.5;
+  font-size: 14px;
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+}
+
+
+.cells {
+  margin: 0 auto;
+  padding: 0;
+  overflow: auto;
+  width: 100%;
+}
+
+.container {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.cell {
+  display: block;
+  width: 12.5%;
+  float: left;
+  line-height: 200px;
+  height: 20px;
+  margin: 0;
+  border: solid #fff 1px;
+  text-align: center;
+  vertical-align: text-middle;
+  font-size: 100px;
+  color: white;
+}
+
+#zero{
+  background-color: #000
+}
+
+#one{
+  background-color: #111
+}
+
+#two{
+  background-color: #222
+}
+
+#three{
+  background-color: #333
+}
+
+#four{
+  background-color: #444
+}
+
+#five{
+  background-color: #555
+}
+
+#six{
+  background-color: #666
+}
+
+#seven{
+  background-color: #777
+}
+
+#eight{
+  background-color: #888
+}
+
+#nine{
+  background-color: #999
+}
+
+#a{
+  background-color: #aaa
+}
+
+#b{
+  background-color: #bbb
+}
+
+#c{
+  background-color: #ccc
+}
+
+#d{
+  background-color: #ddd
+}
+
+#e{
+  background-color: #eee
+}
+
+#f{
+  background-color: #fff
+}
+
+
+
+
