@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
 function blinker() {
-    $('.blink-me').fadeOut(500);
-    $('.blink-me').fadeIn(500);
+    $('.blink-me').fadeOut(300);
+    $('.blink-me').fadeIn(100);
 }
 
 setInterval(blinker, 1000); //Runs every second
@@ -14,7 +14,7 @@ setInterval(blinker, 1000); //Runs every second
   if (selected.length >0) {
     selected.forEach(function(element) {
       $(element).css('color', bg)
-      $(element).fadeIn(0)
+      $(element).stop().fadeTo(0, 1)
       $(element).removeClass("blink-me")
       $('span'+element).html(bg+", "+rgb2hex(bg))
       $('span'+element).css('color', bg)
@@ -28,19 +28,19 @@ setInterval(blinker, 1000); //Runs every second
   selected =[]
  })
 
-  $('.title'). on('click', function(e) {
+  $('.home.title'). on('click', function(e) {
   selected.push('.title')
-  $('.title').addClass("blink-me")
+  $('.home.title').addClass("blink-me")
  })
 
-  $('.paragraph'). on('click', function(e) {
+  $('.home.paragraph'). on('click', function(e) {
   selected.push('.paragraph')
-  $('.paragraph').addClass("blink-me")
+  $('.home.paragraph').addClass("blink-me")
  })
 
-  $('.subhead'). on('click', function(e) {
+  $('.home.subhead'). on('click', function(e) {
   selected.push('.subhead')
-  $('.subhead').addClass("blink-me")
+  $('.home.subhead').addClass("blink-me")
  })
 
 

@@ -2,6 +2,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -23,10 +24,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
   padding-top: 20px;
   clear: both;
+  color: #404040;
 }
 
 .subhead{
   padding-top:10px;
+  color: #a8a8a8;
+  font-size: 27px;
+  font-weight: 300;
+  letter-spacing: -.032em;
+}
+
+.paragraph {
+  color: #484848;
 }
 
 .noborder{
@@ -98,69 +108,54 @@ article p {
   color: white;
 }
 
-#zero{
-  background-color: #000
+.side {
+  font-size: 14px;
 }
 
-#one{
-  background-color: #111
-}
 
-#two{
-  background-color: #222
-}
 
-#three{
-  background-color: #333
-}
+#a{background-color: #000000}
+#b{background-color: #080808}
+#c{background-color: #101010}
+#d{background-color: #181818}
+#e{background-color: #202020}
+#f{background-color: #282828}
+#g{background-color: #303030}
+#h{background-color: #383838}
+#i{background-color: #404040}
+#j{background-color: #484848}
+#k{background-color: #505050}
+#l{background-color: #585858}
+#m{background-color: #606060}
+#n{background-color: #686868}
+#o{background-color: #696969}
+#p{background-color: #707070}
+#q{background-color: #787878}
+#r{background-color: #808080}
+#s{background-color: #888888}
+#t{background-color: #909090}
+#u{background-color: #989898}
+#v{background-color: #A0A0A0}
+#w{background-color: #A8A8A8}
+#x{background-color: #A9A9A9}
+#y{background-color: #B0B0B0}
+#z{background-color: #B8B8B8}
+#aa{background-color: #BEBEBE}
+#bb{background-color: #C0C0C0}
+#cc{background-color: #C8C8C8}
+#dd{background-color: #D0D0D0}
+#ee{background-color: #D3D3D3}
+#ff{background-color: #D8D8D8}
+#gg{background-color: #DCDCDC}
+#hh{background-color: #E0E0E0}
+#ii{background-color: #E8E8E8}
+#jj{background-color: #F0F0F0}
+#kk{background-color: #F5F5F5}
+#ll{background-color: #F8F8F8}
+#mm{background-color: #FFFFFF}
 
-#four{
-  background-color: #444
-}
 
-#five{
-  background-color: #555
-}
 
-#six{
-  background-color: #666
-}
-
-#seven{
-  background-color: #777
-}
-
-#eight{
-  background-color: #888
-}
-
-#nine{
-  background-color: #999
-}
-
-#a{
-  background-color: #aaa
-}
-
-#b{
-  background-color: #bbb
-}
-
-#c{
-  background-color: #ccc
-}
-
-#d{
-  background-color: #ddd
-}
-
-#e{
-  background-color: #eee
-}
-
-#f{
-  background-color: #fff
-}
 
 
 
